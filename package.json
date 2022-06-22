@@ -1,0 +1,21 @@
+{
+  "name": "calculando-el-total",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar": "sass --watch assets/style/sass:assets/style/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yarynav/Calculando-el-total.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yarynav/Calculando-el-total/issues"
+  },
+  "homepage": "https://github.com/Yarynav/Calculando-el-total#readme"
+}
