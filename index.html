@@ -4,7 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/css/style.css" />
     <title>Calculando el total</title>
   </head>
-  <body></body>
+  <body>
+    <div class="box">
+      <div class="container1">
+        <img
+          src="assets/img/notebookColor.png"
+          alt="notebook color girs con letras de colores"
+        />
+        <h1>Laptop Gamer AMD</h1>
+        <input type="text" id="cantidad" class="text" placeholder="Cantidad" />
+        <input
+          type="text"
+          id="color"
+          class="text"
+          placeholder="Color en palabra"
+        />
+        <div class="row">
+          <span>Precio:</span>
+          <input id="precio" />
+        </div>
+        <button id="calcular">Calcular Total</button>
+      </div>
+      <div class="container2">
+        <div class="row">
+          <div>Total</div>
+          <div id="resultado"></div>
+        </div>
+        <div class="row">
+          <div>Cantidad</div>
+          <div id="resultadoCantidad"></div>
+        </div>
+        <div class="row">
+          <div>Color</div>
+          <div id="resultadoColor"></div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
