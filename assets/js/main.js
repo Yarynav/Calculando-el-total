@@ -1,9 +1,10 @@
-const cantidad = document.querySelector("#cantidad");
+const quantity = document.querySelector("#quantity");
 const color = document.querySelector("#color");
-function calcularPrecio() {
-  let total = parseInt(cantidad.value) * parseInt(precio.value);
-  document.querySelector("#resultado").innerHTML = "$" + total.toLocaleString();
-  document.querySelector("#resultadoColor").style.backgroundColor = color.value;
-  document.querySelector("#resultadoCantidad").innerHTML = cantidad.value;
+function calculatePrice() {
+  const price = document.querySelector("#price");
+  const total = parseInt(quantity.value) * parseInt(price.value);
+  document.querySelector("#result").innerHTML = "$" + total.toLocaleString();
+  document.querySelector("#resultColor").style.backgroundColor = color.value;
+  document.querySelector("#resultQuantity").innerHTML = quantity.value;
 }
-document.querySelector("#calcular").addEventListener("click", calcularPrecio);
+document.querySelector("#calculate").addEventListener("click", calculatePrice);

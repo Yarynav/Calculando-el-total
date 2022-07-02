@@ -15,31 +15,35 @@
           alt="notebook color girs con letras de colores"
         />
         <h1>Laptop Gamer AMD</h1>
-        <input type="text" id="cantidad" class="text" placeholder="Cantidad" />
-        <input
-          type="text"
-          id="color"
-          class="text"
-          placeholder="Color en palabra"
-        />
+        <input type="text" id="quantity" class="text" placeholder="Cantidad" />
+
+        <div class="row">
+          <span>Color:</span>
+          <select id="color" class="select" placeholder="Color en palabra">
+            <option value="green">Verde</option>
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="black">Negro</option>
+          </select>
+        </div>
         <div class="row">
           <span>Precio:</span>
-          <input id="precio" />
+          <input id="price" />
         </div>
-        <button id="calcular">Calcular Total</button>
+        <button id="calculate">Calcular Total</button>
       </div>
       <div class="container2">
         <div class="row">
           <div>Total</div>
-          <div id="resultado"></div>
+          <div id="result"></div>
         </div>
         <div class="row">
           <div>Cantidad</div>
-          <div id="resultadoCantidad"></div>
+          <div id="resultQuantity"></div>
         </div>
         <div class="row">
           <div>Color</div>
-          <div id="resultadoColor"></div>
+          <div id="resultColor"></div>
         </div>
       </div>
     </div>
